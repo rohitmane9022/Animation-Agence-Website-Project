@@ -6,9 +6,9 @@ import Video from "../components/Home/Video"
 const Homes = () => {
   return (
     <div className="text-white">
-    <div className="h-screen w-screen fixed "><Video/>
+    <div className="h-full w-screen fixed "><Video/>
     </div>
-      <div className="h-screen w-screen relative flex flex-col">
+      <div className="h-full w-full relative flex flex-col">
         <HomeHeroText/>
         <HomeBottomText/>
       
