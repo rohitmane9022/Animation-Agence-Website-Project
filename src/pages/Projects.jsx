@@ -2,7 +2,7 @@
 
 const Projects = () => {
   return (
-    <div>
+    <div className="text-white">
       Project
     </div>
   )
